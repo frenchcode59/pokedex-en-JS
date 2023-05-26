@@ -1,0 +1,26 @@
+body{
+    background-image: url(./image/backgroundpoke.jpg);
+}
+
+#grid{
+    display: grid;
+    grid-template-columns: repeat(5 ,1fr) ;
+    gap: 25px;
+    
+   }
+   div .item{
+    border: solid;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   #search{
+    display:flex ;
+    flex-direction: row;
+    justify-content: center;
+    gap: 160px;
+    margin-bottom: 100px;
+   }
